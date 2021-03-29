@@ -39,8 +39,8 @@ success result:
   "error": false,
   "status": 201,
   "body": {
-      "first_name": "Jorge",
-      "last_name": "Carrión",
+      "first_name": "Nombre",
+      "last_name": "Apellido",
       "group_id": 1
   }
 }
@@ -59,8 +59,8 @@ success result:
     "body": [
         {
             "id": 1,
-            "first_name": "First Name",
-            "last_name": "Last Name",
+            "first_name": "Nombre",
+            "last_name": "Apellido",
             "group_id": 1,
             "register_date": "2021-03-29T21:49:48.000Z",
             "name": "Grupo1"
