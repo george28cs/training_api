@@ -8,7 +8,7 @@
     "dev": "nodemon api/index.js"
   },
   "keywords": [],
-  "author": "Jorge Carrion <jorge.carrion@octopy.com>",
+  "author": "Jorge Carrion <jorge_28cs@hotmail.com>",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
