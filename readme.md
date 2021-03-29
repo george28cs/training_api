@@ -3,12 +3,15 @@
 
 ## 1 Configure .env file:  
 
+```json
 PORT=your_api_port
 DB_HOST=your_db_host
 DB_PASSWORD=your_db_password
 DB_USER=your_db_user
 DB_NAME=your_database
 DB_PORT=your_db_port
+
+```
 
 ## 2 Run the sql script 
 
