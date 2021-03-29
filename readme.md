@@ -23,15 +23,18 @@ DB_PORT=your_db_port
 POST {your_api_server_url}/students
 
 body data (json):
-
+```json
 {
   "first_name": "Nombre",
   "last_name": "Apellido",
   "group_id": 1
 }
 
+```
+
 success result: 
 
+```json
 {
   "error": false,
   "status": 201,
@@ -41,6 +44,7 @@ success result:
       "group_id": 1
   }
 }
+```
 
 GET {your_api_server_url}/students?start_date=1-1-2021
 
@@ -48,6 +52,7 @@ NOTE: You can use dd-mm-yyyy or dd/mm/yyyy format for start date
 
 success result:
 
+```json
 {
     "error": false,
     "status": 200,
@@ -62,3 +67,4 @@ success result:
         }
     ]
 }
+```
