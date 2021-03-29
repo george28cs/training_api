@@ -1,7 +1,7 @@
 # Documentation  
 
 
-## 1 Configure .env file:  
+## 1. Configure .env file:  
 
 ```json
 PORT=your_api_port
@@ -13,15 +13,15 @@ DB_PORT=your_db_port
 
 ```
 
-## 2 Run the sql script 
+## 2. Run the sql script 
 
 /utils/data.sql
 
-##3 Run the API
+## 3. Run the API
 
   use npm run start or npm run dev (nodemon)
 
-## 3. API Usage:  
+## 4. API Usage:  
 
 POST {your_api_server_url}/students
 
